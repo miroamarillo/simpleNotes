@@ -1,0 +1,8 @@
+{
+  "name": "simplenotes",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp-connect": "^2.0.6",
+    "gulp": "^3.8.6"
+  }
+}

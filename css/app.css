@@ -9,5 +9,23 @@ i {
 	float: right;
 }
 [class*="column"] + [class*="column"]:last-child {
-float: left;
+	float: left;
+}
+.thumbnails {
+	list-style: none;
+}
+button, .button {
+margin: 0;
+position: relative;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+float: right;
+padding: 0rem;
+padding-top: 0.2em;
+font-size: 1rem;
+transition: none;
+}
+button:hover, .button:hover{
+	background-color: #008cba;
 }

@@ -1,5 +1,8 @@
 var gulp 			= require('gulp'),
 	connect 		= require('gulp-connect'),
+	mongoose 		= require('moongoose');
+
+mongoose.connect('mongodb://localhost/simpleNotes');
 
 gulp.task('connect', function() {
 	connect.server({

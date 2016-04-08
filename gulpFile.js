@@ -1,6 +1,6 @@
 var gulp 			= require('gulp'),
 	connect 		= require('gulp-connect'),
-	mongoose 		= require('moongoose');
+	mongoose 		= require('mongoose');
 
 mongoose.connect('mongodb://localhost/simpleNotes');
 
